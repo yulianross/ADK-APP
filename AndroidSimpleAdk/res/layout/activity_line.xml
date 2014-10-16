@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/btnBind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Bind to Service" />
+
+    <Button
+        android:id="@+id/btnUnbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnBind"
+        android:layout_marginTop="30dp"
+        android:text="Unbind from Service" />
+
+    <TextView
+        android:id="@+id/left_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnUnbind"
+        android:layout_marginTop="56dp"
+        android:text="left" />
+
+    <TextView
+        android:id="@+id/light_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="light" />
+
+    <TextView
+        android:id="@+id/ultrasonic_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/light_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="ultrasonic" />
+
+    <TextView
+        android:id="@+id/x_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/y_text"
+        android:layout_alignBottom="@+id/y_text"
+        android:layout_alignParentLeft="true"
+        android:text="eje x" />
+
+    <TextView
+        android:id="@+id/y_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="42dp"
+        android:layout_toLeftOf="@+id/right_contact"
+        android:text="eje y" />
+
+    <TextView
+        android:id="@+id/right_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/left_contact"
+        android:layout_alignBottom="@+id/left_contact"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:text="right" />
+
+</RelativeLayout>
