@@ -1,4 +1,3 @@
-This is an example of how to run the Android ADK functionality on a basic Arduino Uno and an USB Host Shield. The Arduino pde is stripped down to its bare minimum supporting digital ports 2-7 with PWM, where possible, as output ports. The Android code is also stripped down to its basics.
-
-Find more info at:
-http://marioboehmer.blogspot.com/2011/05/android-adk-with-standard-arduino-uno.html
+App en Android que controla un robot siguelíneas. Mueve el robot en Modo Manual y en Modo siguelíneas, y saca por pantalla los valores de sensores que tiene el robot. Se ha utilizado el Android Development Kit para comunicar el robot con el teléfono móvil. Para más información consulta la página
+http://esmejorquenohacernada.wordpress.com/
+ 
